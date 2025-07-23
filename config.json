@@ -1,0 +1,115 @@
+{
+  "church": {
+    "name": "Holy Spirit Church",
+    "location": "Nadakhal",
+    "fullAddress": {
+      "street": "Holy Spirit Church",
+      "area": "Nadakhal",
+      "district": "[Your District]",
+      "state": "[Your State]",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91 [Your Phone Number]",
+      "email": "holyspirit.nadakhal@gmail.com"
+    },
+    "priest": {
+      "name": "Rev. Fr. [Priest Name]",
+      "title": "Parish Priest"
+    }
+  },
+  "massTimings": {
+    "sunday": [
+      { "time": "7:00 AM", "language": "English" },
+      { "time": "9:00 AM", "language": "Local Language" },
+      { "time": "6:30 PM", "language": "English" }
+    ],
+    "weekdays": [
+      { "time": "6:30 AM", "days": "Monday to Saturday" },
+      { "time": "6:30 PM", "days": "Tuesday & Thursday" }
+    ],
+    "special": [
+      { "time": "7:00 PM", "service": "First Friday Adoration" },
+      { "time": "6:00 PM", "service": "Novena (Wednesdays)" }
+    ],
+    "confessions": [
+      { "time": "5:30 PM", "day": "Saturdays" },
+      { "time": "Before Mass", "note": "By appointment" }
+    ]
+  },
+  "history": [
+    {
+      "period": "1950s",
+      "title": "Foundation Years",
+      "description": "The Holy Spirit Church in Nadakhal was established in the 1950s to serve the growing Catholic community in the region. The original structure was a modest chapel built with the dedication and contributions of local parishioners."
+    },
+    {
+      "period": "1970s",
+      "title": "Expansion and Growth",
+      "description": "As the parish community grew, the church underwent its first major renovation and expansion. New facilities were added including a larger nave, improved altar area, and community hall for parish activities."
+    },
+    {
+      "period": "1990s",
+      "title": "Modern Renovations",
+      "description": "The church received significant upgrades including improved lighting, sound systems, and accessibility features. The beautiful stained glass windows were also installed during this period."
+    },
+    {
+      "period": "2000s-Present",
+      "title": "Community Outreach",
+      "description": "The church expanded its mission to include extensive community outreach programs, youth ministries, and social services. Today, Holy Spirit Church continues to be a cornerstone of faith and service in Nadakhal."
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "church-main.jpg",
+      "title": "Holy Spirit Church Nadakhal",
+      "description": "Main church building exterior view"
+    },
+    {
+      "filename": "church-interior.jpg",
+      "title": "Church Interior",
+      "description": "Beautiful interior with altar and pews"
+    },
+    {
+      "filename": "church-exterior.jpg",
+      "title": "Church Exterior",
+      "description": "Side view of the church building"
+    },
+    {
+      "filename": "altar.jpg",
+      "title": "Main Altar",
+      "description": "The sacred altar where mass is celebrated"
+    },
+    {
+      "filename": "stained-glass.jpg",
+      "title": "Stained Glass Windows",
+      "description": "Beautiful stained glass artwork"
+    },
+    {
+      "filename": "christmas-mass.jpg",
+      "title": "Christmas Mass",
+      "description": "Special Christmas celebration"
+    },
+    {
+      "filename": "youth-group.jpg",
+      "title": "Youth Ministry",
+      "description": "Young parishioners in community activities"
+    },
+    {
+      "filename": "community-service.jpg",
+      "title": "Community Service",
+      "description": "Parish community service activities"
+    }
+  ],
+  "socialMedia": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": ""
+  },
+  "website": {
+    "primaryColor": "#2c5aa0",
+    "secondaryColor": "#1e3f73",
+    "accentColor": "#f8f9fa"
+  }
+}
