@@ -3,27 +3,22 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener('click', () => {
-    const isActive = hamburger.classList.toggle('active');
+    hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
     
-    // Update ARIA attributes for accessibility
-    hamburger.setAttribute('aria-expanded', isActive);
-    
-    // Prevent body scroll when menu is open
-    if (isActive) {
-        document.body.style.overflow = 'hidden';
-    } else {
-        document.body.style.overflow = '';
-    }
+    // Update aria-expanded for accessibility
+    const isExpanded = hamburger.classList.contains('active');
+    hamburger.setAttribute('aria-expanded', isExpanded);
 });
 
 // Close mobile menu when clicking on a link
-document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
-    hamburger.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
-}));
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+    });
+});
 
 // Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {
@@ -31,7 +26,6 @@ document.addEventListener('click', (e) => {
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
         hamburger.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
     }
 });
 
